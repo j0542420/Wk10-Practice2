@@ -16,10 +16,10 @@ class Main {
 
     if(userChoice == computerChoice){
         System.out.println("It's a tie!");
-    }else if ((userChoice == Choice.Rock && computerChoice == Choice.Scissors) 
-              (userChoice == Choice.Papper && computerChoice == Choice.Rock)
+    }else if ((userChoice == Choice.Rock && computerChoice == Choice.Scissors) ||
+              (userChoice == Choice.Papper && computerChoice == Choice.Rock) ||
               (userChoice == Choice.Scissors && computerChoice == Choice.Papper)) {
-                System.out.println("You win!")
+                System.out.println("You win!");
               }
     else {
         System.out.println("You lose!");
